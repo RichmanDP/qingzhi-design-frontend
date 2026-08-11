@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.log
+.DS_Store
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Local configuration. Only the documented example is versioned.
+.env
+.env.*
+!.env.example

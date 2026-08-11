@@ -1,0 +1,209 @@
+/* ============ 擎智集团 QINGZHI · 共享设计系统 ============ */
+:root{
+  --paper:#FAF9F6; --card:#FFFFFF;
+  --ink:#16233B; --body:#4A5568; --mut:#8A94A6;
+  --gold:#C19A3D; --line:#E6E2D9;
+  --c-content:#16233B; --c-marketing:#C19A3D; --c-medical:#2E6E8E;
+  --c-drama:#8E2E5E; --c-consult:#2E5E4A; --c-taoism:#6B5B3E; --c-avatar:#4A4E8E;
+  --ok:#2E5E4A; --warn:#B07A1E; --bad:#A83A3A;
+  --serif:"Noto Serif SC","Songti SC","STSong",serif;
+  --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--paper);color:var(--body);
+  font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,.serif{font-family:var(--serif);color:var(--ink);font-weight:600;letter-spacing:.5px}
+img{max-width:100%;display:block}
+::selection{background:var(--gold);color:#fff}
+
+/* ---------- 顶部导航 ---------- */
+.nav{position:sticky;top:0;z-index:50;background:rgba(250,249,246,.92);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1200px;margin:0 auto;padding:0 28px;height:64px;
+  display:flex;align-items:center;gap:26px}
+.brand{display:flex;align-items:baseline;gap:10px;font-family:var(--serif)}
+.brand b{font-size:19px;color:var(--ink);letter-spacing:3px}
+.brand span{font-size:10.5px;color:var(--gold);letter-spacing:2.5px}
+.nav-links{display:flex;gap:2px;margin-left:8px}
+.nav-links a{font-size:13.5px;color:var(--body);padding:6px 11px;border-radius:5px;transition:.15s}
+.nav-links a:hover{color:var(--ink);background:#F0EDE4}
+.nav-links a.on{color:var(--ink);font-weight:600;box-shadow:inset 0 -2px 0 var(--gold)}
+.nav-cta{margin-left:auto;display:flex;gap:10px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;
+  padding:9px 18px;border-radius:5px;cursor:pointer;border:1px solid var(--ink);
+  transition:.15s;font-family:var(--sans)}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:#233354;transform:translateY(-1px)}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn-gold:hover{background:#A9862F;transform:translateY(-1px)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:#F0EDE4}
+
+/* ---------- 布局容器 ---------- */
+.wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+.page-head{padding:52px 0 30px;border-bottom:1px solid var(--line);margin-bottom:34px}
+.crumb{font-size:12px;color:var(--mut);letter-spacing:1px;margin-bottom:12px}
+.crumb b{color:var(--gold);font-weight:600}
+.page-head h1{font-size:34px;letter-spacing:2px;line-height:1.3}
+.page-head .sub{margin-top:12px;font-size:14.5px;color:var(--mut);max-width:640px}
+.dept-tag{display:inline-flex;align-items:center;gap:7px;font-size:12px;letter-spacing:2px;
+  color:var(--ink);border:1px solid var(--line);background:var(--card);
+  padding:4px 12px;border-radius:99px;margin-bottom:14px}
+.dept-tag i{width:7px;height:7px;border-radius:50%;background:var(--gold)}
+
+/* ---------- 统计条 ---------- */
+.statbar{display:flex;gap:0;border:1px solid var(--line);background:var(--card);
+  border-radius:6px;overflow:hidden;margin-bottom:38px}
+.statbar .st{flex:1;padding:20px 24px;border-right:1px solid var(--line)}
+.statbar .st:last-child{border-right:none}
+.statbar .st b{display:block;font-family:var(--serif);font-size:28px;color:var(--ink)}
+.statbar .st span{font-size:12px;color:var(--mut);letter-spacing:1px}
+
+/* ---------- 区块标题 ---------- */
+.sec{display:flex;align-items:baseline;gap:14px;margin:44px 0 20px}
+.sec h2{font-size:21px;letter-spacing:1.5px}
+.sec .n{font-family:var(--serif);font-size:13px;color:var(--gold);letter-spacing:2px}
+.sec .line{flex:1;height:1px;background:var(--line)}
+.sec .more{font-size:12.5px;color:var(--mut)}
+.sec .more:hover{color:var(--gold)}
+
+/* ---------- 部门卡（集团楼层） ---------- */
+.grid-dept{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.dept-card{background:var(--card);border:1px solid var(--line);border-radius:6px;
+  overflow:hidden;transition:.18s;position:relative;display:flex;flex-direction:column}
+.dept-card:hover{border-color:#CFC9BA;transform:translateY(-3px);box-shadow:0 10px 28px rgba(22,35,59,.07)}
+.dept-card .band{height:3px}
+.dept-card .pad{padding:22px 22px 20px;display:flex;flex-direction:column;flex:1}
+.dept-card .dc-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.dept-card .dc-ic{width:42px;height:42px;border-radius:5px;display:flex;align-items:center;
+  justify-content:center;font-family:var(--serif);font-size:19px;color:#fff;flex-shrink:0}
+.dept-card h3{font-size:17.5px;letter-spacing:1px}
+.dept-card .dc-sub{font-size:11.5px;color:var(--mut);letter-spacing:1px;margin-top:2px}
+.dept-card p{font-size:13px;color:var(--body);line-height:1.7;flex:1}
+.dept-card .dc-foot{display:flex;align-items:center;justify-content:space-between;
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.dept-card .dc-count{font-size:12px;color:var(--mut)}
+.dept-card .dc-count b{color:var(--ink);font-family:var(--serif)}
+.dept-card .dc-go{font-size:12.5px;color:var(--gold);font-weight:600}
+.dept-card:hover .dc-go{transform:translateX(3px)}
+.dept-card .dc-go{transition:.18s}
+
+/* ---------- 工位/员工卡 ---------- */
+.grid-seat{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:16px}
+.seat{background:var(--card);border:1px solid var(--line);border-radius:6px;
+  padding:20px;transition:.18s;position:relative}
+.seat:hover{border-color:#CFC9BA;transform:translateY(-2px);box-shadow:0 8px 22px rgba(22,35,59,.06)}
+.seat .s-band{position:absolute;top:0;left:0;right:0;height:3px;border-radius:6px 6px 0 0}
+.seat .s-top{display:flex;align-items:center;gap:11px;margin-bottom:11px;margin-top:4px}
+.seat .s-av{width:40px;height:40px;border-radius:5px;background:var(--ink);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-family:var(--serif);
+  font-size:18px;flex-shrink:0}
+.seat .s-name{font-family:var(--serif);font-size:15.5px;color:var(--ink);letter-spacing:.5px}
+.seat .s-role{font-size:11px;color:var(--mut);letter-spacing:.5px}
+.seat p{font-size:12.5px;color:var(--body);line-height:1.65;min-height:42px}
+.seat .s-foot{display:flex;align-items:center;justify-content:space-between;
+  margin-top:13px;padding-top:11px;border-top:1px solid var(--line)}
+.seat .s-num{font-size:11px;color:var(--mut);font-family:var(--serif);letter-spacing:1px}
+
+/* ---------- 状态徽章 ---------- */
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;
+  padding:3px 10px;border-radius:99px;letter-spacing:.5px;border:1px solid}
+.badge .dot{width:5px;height:5px;border-radius:50%;background:currentColor}
+.b-ok{color:var(--ok);border-color:#C4D6CC;background:#F0F6F2}
+.b-run{color:var(--ink);border-color:#C6CEDC;background:#EEF1F7}
+.b-run .dot{animation:blink 1.4s infinite}
+.b-wait{color:var(--mut);border-color:var(--line);background:#F6F4EE}
+.b-skip{color:var(--mut);border-color:var(--line);background:transparent}
+.b-stop{color:var(--bad);border-color:#E4C2C2;background:#F9EFEF}
+.b-gold{color:var(--warn);border-color:#E4D3AC;background:#FBF5E6}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* ---------- 工具卡（营销） ---------- */
+.grid-tool{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:16px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:20px;transition:.18s}
+.tool:hover{border-color:#CFC9BA;transform:translateY(-2px);box-shadow:0 8px 22px rgba(22,35,59,.06)}
+.tool .t-ic{font-size:22px;margin-bottom:10px}
+.tool h4{font-size:15px;letter-spacing:.5px;margin-bottom:6px}
+.tool p{font-size:12.5px;color:var(--body);line-height:1.6;min-height:44px}
+.tool .t-foot{display:flex;justify-content:space-between;align-items:center;
+  margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+.tool .cost{font-size:11px;color:var(--gold);font-weight:700}
+.tool .go{font-size:12px;color:var(--ink);font-weight:600}
+
+/* ---------- 流水线（工单详情） ---------- */
+.pipe{display:flex;align-items:stretch;gap:0;overflow-x:auto;padding:14px 4px 20px}
+.pnode{min-width:96px;flex:1;text-align:center;position:relative;padding:0 4px}
+.pnode:not(:last-child):after{content:"→";position:absolute;right:-9px;top:26px;
+  font-size:15px;color:#C6C0B2;z-index:1}
+.pnode .pn-av{width:52px;height:52px;border-radius:6px;margin:0 auto 8px;
+  background:var(--card);border:1px solid var(--line);display:flex;align-items:center;
+  justify-content:center;font-family:var(--serif);font-size:20px;color:var(--ink);position:relative}
+.pnode.done .pn-av{background:#F0F6F2;border-color:#C4D6CC;color:var(--ok)}
+.pnode.cur .pn-av{background:var(--ink);color:#fff;border-color:var(--ink);
+  box-shadow:0 0 0 4px rgba(22,35,59,.1)}
+.pnode.stop .pn-av{background:#F9EFEF;border-color:#E4C2C2;color:var(--bad)}
+.pnode.wait .pn-av{background:#F6F4EE;color:var(--mut)}
+.pnode .pn-name{font-size:12.5px;color:var(--ink);font-weight:600}
+.pnode .pn-st{font-size:10.5px;color:var(--mut);margin-top:2px}
+.pnode.cur .pn-st{color:var(--gold);font-weight:700}
+
+/* ---------- 质检关卡 ---------- */
+.qc{border:1px solid #E4C2C2;border-radius:6px;background:#FCF7F4;overflow:hidden;margin:26px 0}
+.qc-head{display:flex;align-items:center;gap:12px;padding:16px 22px;
+  background:#F9EFEF;border-bottom:1px solid #E4C2C2}
+.qc-head .qc-ic{width:34px;height:34px;border-radius:5px;background:var(--bad);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px}
+.qc-head h3{font-size:16px;color:var(--bad)}
+.qc-head .qc-sub{font-size:12px;color:#B0695F;margin-left:auto}
+.qc-body{padding:8px 22px 20px}
+.risk{display:flex;gap:14px;padding:15px 0;border-bottom:1px dashed #EAD9CE}
+.risk:last-of-type{border-bottom:none}
+.risk .lv{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:4px;
+  height:fit-content;flex-shrink:0;letter-spacing:1px;margin-top:2px}
+.lv-h{background:var(--bad);color:#fff}
+.lv-m{background:var(--warn);color:#fff}
+.lv-l{background:#B0A58E;color:#fff}
+.risk .r-body{flex:1}
+.risk .r-cat{font-size:13px;font-weight:700;color:var(--ink)}
+.risk .r-txt{font-size:12.5px;color:var(--body);margin-top:4px;line-height:1.6}
+.risk .r-txt mark{background:#F6E3C8;color:#8A5A1E;padding:0 3px;border-radius:2px}
+.qc-actions{display:flex;gap:12px;align-items:center;margin-top:16px;flex-wrap:wrap}
+.qc-note{font-size:12px;color:var(--mut)}
+.qc-lock{font-size:11.5px;color:var(--bad);font-weight:600;display:inline-flex;
+  align-items:center;gap:5px;margin-top:10px}
+
+/* ---------- 工作日志 ---------- */
+.log{border:1px solid var(--line);border-radius:6px;background:var(--card);margin:22px 0}
+.log-head{padding:14px 22px;border-bottom:1px solid var(--line);font-size:13.5px;
+  font-weight:600;color:var(--ink);display:flex;justify-content:space-between;cursor:pointer}
+.log-body{padding:6px 22px 16px}
+.log-item{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid #F0EDE4;font-size:12.5px}
+.log-item:last-child{border-bottom:none}
+.log-item .lt{color:var(--mut);flex-shrink:0;font-family:var(--serif);width:74px}
+.log-item .lc b{color:var(--ink);font-weight:600}
+
+/* ---------- 通用面板/卡片 ---------- */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px}
+.panel h3{font-size:16px;margin-bottom:14px;letter-spacing:.5px}
+.split{display:grid;grid-template-columns:1.6fr 1fr;gap:22px;align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr}}
+
+/* ---------- 页脚 ---------- */
+footer{margin-top:80px;border-top:1px solid var(--line);background:#F3F0E8}
+.foot-in{max-width:1200px;margin:0 auto;padding:34px 28px;display:flex;
+  justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12.5px;color:var(--mut)}
+.foot-in b{color:var(--ink);font-family:var(--serif);letter-spacing:2px}
+
+/* ---------- 响应式 ---------- */
+@media(max-width:760px){
+  .nav-links{display:none}
+  .page-head h1{font-size:26px}
+  .statbar{flex-wrap:wrap}
+  .statbar .st{flex:1 1 45%;border-bottom:1px solid var(--line)}
+  .wrap,.nav-in{padding:0 18px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
