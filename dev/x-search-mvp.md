@@ -10,35 +10,35 @@
 
 ## 一、查询 1：`去AI味 OR "AI味" min_faves:20`（热门）
 
-1. **@Pluvio9yte（雪踏乌云）** · 7月4日 · ❤️约1,196 / 🔁 229 / 21万浏览
+1. **@Pluvio9yte（雪踏乌云）** · 7月4日 · ❤️约1,196 / 🔁229 / 21万浏览
    长文《开源史上最强去AI味 Skill —「人话.skill」》。作者试遍十几个"去 AI 味"Skill 后自造一个，主张输出"人话"。
    https://x.com/Pluvio9yte/status/2073597713409863793
 
-2. **@369Serena（Serena 木瓜）** · 5月31日 · ❤️约3,442 / 🔁 797 / 18万浏览
+2. **@369Serena（Serena 木瓜）** · 5月31日 · ❤️约3,442 / 🔁797 / 18万浏览
    "Codex 中文内容创作者十大必装 Skills"：写作、润色、**去 AI 味**、配图、封面、小红书卡片配齐，首推 Humanizer-zh。
    https://x.com/369Serena/status/2061306852990931229
 
-3. **@369Serena** · 7月4日 · ❤️约2,803 / 🔁 587 / 71万浏览
+3. **@369Serena** · 7月4日 · ❤️约2,803 / 🔁587 / 71万浏览
    同作者另一条高爆帖，围绕写作/去 AI 味工具链，浏览量为本组最高。
    https://x.com/369Serena/status/2073398014333321498
 
-4. **@0323Zhumy（Yanis.）** · 8月4日 · ❤️约3,110 / 🔁 291 / 24万浏览
+4. **@0323Zhumy（Yanis.）** · 8月4日 · ❤️约3,110 / 🔁291 / 24万浏览
    拆解 claude.ai 的「反 AI 味 · 四条禁令」，给出**前后对比 + 真实系统提示原文**，附一键复制。
    https://x.com/0323Zhumy/status/2084595187096138214
 
-5. **@aipgh6（彭根辉）** · 6月18日 · ❤️约720 / 🔁 205
+5. **@aipgh6（彭根辉）** · 6月18日 · ❤️约720 / 🔁205
    "别跟我再说你写的文字有 AI 味了"，扒下 GitHub 去 AI 味前 10 高分项目（blader/humanizer、op7418/Humanizer-zh、hardikpandya/stop-slop 等）。
    https://x.com/aipgh6/status/2067805842066514308
 
-6. **@Yunn260414（Yunn）** · 8月7日 · ❤️约571 / 🔁 113
+6. **@Yunn260414（Yunn）** · 8月7日 · ❤️约571 / 🔁113
    "从选题到成稿，自动写小说教程"：稿子被番茄和七猫编辑拒稿，理由就是"**AI味太重**"；把教训做成两个开源 skill，用 workbuddy 串成「扫榜 → 选题 → 自动写小说」全自动流水线。
    https://x.com/Yunn260414/status/2085721376162545935
 
-7. **@seekjourney（极客杰尼）** · 7月3日 · ❤️约121 / 🔁 28
+7. **@seekjourney（极客杰尼）** · 7月3日 · ❤️约121 / 🔁28
    开源 anti-vibe-writing：目标"让 AI 说话，像人地道"，明确列出要削掉的 AI 特征——排比堆砌、空洞抽象、咨询腔、过量 Markdown 结构、过度分层的大纲、"不是X而是Y"式伪平衡。
    https://x.com/seekjourney/status/2073020932873154780
 
-8. **@wsl8297（Joruno）** · 5月24日 · ❤️约250 / 🔁 110
+8. **@wsl8297（Joruno）** · 5月24日 · ❤️约250 / 🔁110
    去 AI 味相关的提示词/工作流分享（配图为规则清单）。
    https://x.com/wsl8297/status/2058487435672347089
 
@@ -46,35 +46,35 @@
 
 ## 二、查询 2：`(微短剧 OR 短剧) (钩子 OR 爆款) min_faves:10`（热门）
 
-1. **@QT9277（阿台）** · 6月18日 · ❤️约2,368 / 🔁 493 / 17万浏览
+1. **@QT9277（阿台）** · 6月18日 · ❤️约2,368 / 🔁493 / 17万浏览
    介绍开源项目 **Jellyfish（水母——人工智能短剧工作室）**：零基础小白靠它在红果做到 460 万粉；流程为"把剧本丢进去 → 结构化故事板控制、分镜准备、视频生成、导出各环节"。
    https://x.com/QT9277/status/2067794162158797057
 
-2. **@joshesye（行者AI视频）** · 2月24日 · ❤️约2,404 / 🔁 581 / 38万浏览
+2. **@joshesye（行者AI视频）** · 2月24日 · ❤️约2,404 / 🔁581 / 38万浏览
    AI 短剧方法论长帖，本组转发量最高。
    https://x.com/joshesye/status/2026285812539908290
 
-3. **@binghe（冰河）** · 2月28日 · ❤️约1,584 / 🔁 405 / 48万浏览
+3. **@binghe（冰河）** · 2月28日 · ❤️约1,584 / 🔁405 / 48万浏览
    《**短剧剧本创作 Skill 正式发布！**你完全可以靠写剧本赚到第一桶金！（更新了出海模式）》——把短剧剧本写作产品化为一个 Skill，并含海外变现路径。
    https://x.com/binghe/status/2027685265817694668
 
-4. **@BTCqzy1（爱丽丝呀！）** · 5月27日 · ❤️约667 / 🔁 152 / 9万浏览
+4. **@BTCqzy1（爱丽丝呀！）** · 5月27日 · ❤️约667 / 🔁152 / 9万浏览
    港大开源 AI 视频工具 ViMax 实测：一句话商品描述 → 自动写**爆款**带货脚本 → 自动生成分镜提示词 → 成片，也可跑 AI 短剧。
    https://x.com/BTCqzy1/status/2059879782574432627
 
-5. **@Zs02790491Zs（Lora Xiao）** · 7月15日 · ❤️约612 / 🔁 44 / 53万浏览
+5. **@Zs02790491Zs（Lora Xiao）** · 7月15日 · ❤️约612 / 🔁44 / 53万浏览
    踩坑复盘：3 条视频花约 7000 积分（700 多元）、耗时近一周不停调整试错，"除了第一个视频播放高点，后面都惨不忍睹"。
    https://x.com/Zs02790491Zs/status/2077345246573428761
 
-6. **@eternityspring（烃皓）** · 8月11–13日 · ❤️约497 / 🔁 96 / 10万浏览
+6. **@eternityspring（烁皓）** · 8月11–13日 · ❤️约497 / 🔁96 / 10万浏览
    "做 AI 短剧，最坑的不是画得丑，是'**长得不一样**'"：同一间船屋前后镜头道具不一致，传统剧组有实景天然一致，AI 每镜重新生成、场景道具常常 72 变。
    https://x.com/eternityspring/status/2087862241580453925
 
-7. **@XAMTO_AI（Amto）** · 7月12日 · ❤️约357 / 🔁 84
+7. **@XAMTO_AI（Amto）** · 7月12日 · ❤️约357 / 🔁84
    短剧/内容侧工具链分享（better-douyin 等桌面工具，面向内容预览与素材管理）。
    https://x.com/XAMTO_AI/status/2076376796753232342
 
-8. **@gengdaJ（逸尘）** · 6月16日 · ❤️约329 / 🔁 81
+8. **@gengdaJ（逸尘）** · 6月16日 · ❤️约329 / 🔁81
    盘点值得对标的抖音短剧/AI 内容账号清单（多个 douyin 主页链接），可作为选题官的对标源。
    https://x.com/gengdaJ/status/2066871728471785849
 
@@ -82,35 +82,35 @@
 
 ## 三、查询 3：`"AI slop" (writing OR prose OR editor) min_faves:50`（热门）
 
-1. **@petergyang（Peter Yang）** · 7月22日 · ❤️约6,246 / 🔁 478 / 114万浏览
+1. **@petergyang（Peter Yang）** · 7月22日 · ❤️约6,246 / 🔁478 / 114万浏览
    "I'm sick of reading AI slop"，开源 **no-ai-slop**：Removes 20+ patterns of AI slop from writing。本组最高互动。
    https://x.com/petergyang/status/2079943830024188105
 
-2. **@juampitech（Juampi）** · 8月21日 · ❤️约3,515 / 🔁 325 / 57万浏览
+2. **@juampitech（Juampi）** · 8月21日 · ❤️约3,515 / 🔁325 / 57万浏览
    "Top 10 anti-slop skills" 排行榜：1. stop-slop(@hvpandya) 2. no-ai-slop(@petergyang) 3. humanizer(@blader) 4. unslop(@poteto)…
    https://x.com/juampitech/status/2090834948332655011
 
-3. **@petergyang** · 8月5日 · ❤️约2,156 / 🔁 154 / 31万浏览
+3. **@petergyang** · 8月5日 · ❤️约2,156 / 🔁154 / 31万浏览
    no-ai-slop 的后续迭代/用法分享。
    https://x.com/petergyang/status/2085006701984698712
 
-4. **@mikefutia（Mike Futia）** · 5月27日 · ❤️约1,087 / 💬 738
+4. **@mikefutia（Mike Futia）** · 5月27日 · ❤️约1,087 / 💬738
    在 Claude Code 里做了个带品牌调性的 IG 轮播生成器，评论区极热（738 条），讨论如何避免成品一眼 AI。
    https://x.com/mikefutia/status/2059701995725082805
 
-5. **@EXM7777（Machina）** · 8月24日 · ❤️约682 / 🔁 68 / 23万浏览
+5. **@EXM7777（Machina）** · 8月24日 · ❤️约682 / 🔁68 / 23万浏览
    关于 AI slop 与写作质量的观点帖。
    https://x.com/EXM7777/status/2091905664704745583
 
-6. **@petergyang** · 8月4日 · ❤️约372 / 🔁 28
+6. **@petergyang** · 8月4日 · ❤️约372 / 🔁28
    把 no-ai-slop 做成 ChatGPT 插件："@No AI Slop (text)" 一键清洗，另有 "is this slop?" 检测式调用。
    https://x.com/petergyang/status/2084705936317542640
 
-7. **@chhddavid（David Ch）** · 8月25日 · ❤️约234 / 🔁 22
+7. **@chhddavid（David Ch）** · 8月25日 · ❤️约234 / 🔁22
    近期 AI slop 讨论帖（中文圈转述）。
    https://x.com/chhddavid/status/2092220513800061023
 
-8. **@wangdefou（得否）** · 8月12日 · ❤️约106 / 🔁 35
+8. **@wangdefou（得否）** · 8月12日 · ❤️约106 / 🔁35
    对比 petergyang/no-ai-slop 与 KKKKhazix/human-writing 两个去味方案的使用心得。
    https://x.com/wangdefou/status/2087471402169307635
 
